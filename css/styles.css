@@ -123,15 +123,34 @@ header a {
 ----------------------------------- */
 
 section {
+    background-color: #F6F6F6;
+}
+
+#section-container-1, #section-container-2 {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-div.section-info {
+.section-info {
+    margin-top: 32px;
+    margin-bottom: 70px;
     text-align: center;
-    justify-content: space-between;
+    flex: 1;
 }
 
-.fas {
+section h3 {
+    color: #616161;
+    margin: 10px;
+    font-size: 20px;
+}
+
+section p {
+    color: #616161;
+
+}
+
+.fas, .fa {
     color: #616161;
 }
 
@@ -140,3 +159,31 @@ div.section-info {
 /* 
 5. FOOTER STYLES
 ----------------------------------- */
+
+footer {
+    height: 240px;
+    background-color: #2A2A2A;
+    text-align: center;
+}
+
+footer h2 {
+    color: #D8D8D8;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+footer p {
+    color: #85857F;
+}
+
+footer p a {
+    color: #793F3D;
+}
+
+footer .fa-twitter {
+    color: #5DAED5;
+}
+
+footer .fa-facebook-f {
+    color: #4470CF;
+}
