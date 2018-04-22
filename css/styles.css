@@ -1,0 +1,142 @@
+/*
+
+            TABLE OF CONTENTS:
+            1. PAGE CONTAINER
+            2. NAV BAR
+            3. INTRO TO SITE
+            4. DESCRIPT OF SITE
+            5. FOOTER
+*/
+
+
+
+/* 
+1. PAGE CONTAINER STYLES
+----------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.weight-bold {
+    font-weight: 700;
+}
+
+
+
+/* 
+2. NAV BAR STYLES
+----------------------------------- */
+
+nav {
+    background-color: #262626;
+    font-family: arial;
+    display: block;
+    height: 80px;
+    position: relative;
+}
+
+nav h4 {
+    color: white;
+    float: left;
+    position: absolute;
+    top: 34%;
+    padding-left: 35px;
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+}
+
+nav ul {
+    float: right;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    padding-right: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 35px;
+}
+
+nav ul li a {
+    color: #D8D8D8;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-home {
+    color: #F1462F;
+}
+
+
+
+/* 
+3. HEADER STYLES
+----------------------------------- */
+
+header {
+    background-color: #2A2A2A;
+    height: 415px;
+    color: #D8D8D8;
+    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 100;
+    padding-top: 65px;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: 100;
+    padding: 25px 0px;
+}
+
+header h2 > span {
+    color: #F1462F;
+}
+
+header a {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #FF6760;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
+/* 
+4. DESCRIPTION OF SITE STYLES
+----------------------------------- */
+
+section {
+    display: flex;
+}
+
+div.section-info {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.fas {
+    color: #616161;
+}
+
+
+
+/* 
+5. FOOTER STYLES
+----------------------------------- */
